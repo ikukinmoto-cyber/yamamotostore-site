@@ -3,29 +3,68 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>YamamotoStore</title>
+<title>YamamotoStore ｜ iOSアプリの企画・開発</title>
+<meta name="description" content="YamamotoStoreは、読書メモアプリ「Yondock」を開発・提供しているiOSアプリ開発事業です。">
 <style>
-  body { font-family: sans-serif; max-width: 640px; margin: 60px auto; padding: 0 20px; line-height: 1.8; color: #222; }
+  body { font-family: sans-serif; max-width: 760px; margin: 60px auto; padding: 0 20px; line-height: 1.8; color: #222; }
   h1 { margin-bottom: 4px; }
-  .label { color: #666; font-size: 0.9em; }
+  h2 { font-size: 1.15em; margin-top: 48px; padding-bottom: 6px; border-bottom: 1px solid #e5e5e5; }
+  .tagline { color: #666; margin-top: 0; }
+  .label { color: #666; font-size: 0.9em; margin-bottom: 2px; }
+  .label + p { margin-top: 0; }
   a { color: #06c; }
+  .product { border: 1px solid #e5e5e5; border-radius: 12px; padding: 24px; margin-top: 24px; }
+  .product h3 { margin: 0 0 4px; font-size: 1.1em; }
+  .product .sub { color: #666; font-size: 0.9em; margin-top: 0; }
+  .status { display: inline-block; background: #f0f4f8; color: #40566b; font-size: 0.8em; padding: 2px 10px; border-radius: 10px; }
+  .shots { display: flex; gap: 12px; overflow-x: auto; margin: 20px 0 4px; }
+  .shots img { width: 150px; border: 1px solid #e5e5e5; border-radius: 8px; flex-shrink: 0; }
+  footer { margin-top: 56px; padding-top: 16px; border-top: 1px solid #e5e5e5; font-size: 0.9em; }
 </style>
 </head>
 <body>
+
 <h1>YamamotoStore</h1>
-<p class="label">事業内容</p>
-<p>iOSアプリの企画・開発</p>
+<p class="tagline">iOSアプリの企画・開発</p>
 
-<p class="label">代表者</p>
-<p>金本 育</p>
+<p>読書やメモといった日々の習慣を支えるiOSアプリを、個人事業として企画・開発しています。
+広告を掲載せず、利用者のデータを端末内で完結させる設計を方針としています。</p>
 
-<p class="label">所在地</p>
-<p>東京都葛飾区新宿6-2-1</p>
+<h2>プロダクト</h2>
 
-<p class="label">連絡先</p>
+<div class="product">
+  <h3>Yondock（ヨンドク）</h3>
+  <p class="sub">メモで深める読書記録アプリ ／ iPhone対応 ／ <span class="status">近日公開</span></p>
+
+  <p>読んだ本を記録するだけでなく、心に残った一節や感想を残していくための読書メモアプリです。
+  バーコードで本を登録し、気になったページは撮影して文字起こしできます。</p>
+
+  <div class="shots">
+    <img src="yondock-01.png" alt="Yondock 本棚画面">
+    <img src="yondock-02.png" alt="Yondock 本の登録画面">
+    <img src="yondock-03.png" alt="Yondock メモ一覧画面">
+    <img src="yondock-04.png" alt="Yondock 写真付きメモ画面">
+    <img src="yondock-05.png" alt="Yondock 文字起こし画面">
+    <img src="yondock-06.png" alt="Yondock 統計画面">
+  </div>
+
+  <p><a href="yondock.html">Yondock の詳細を見る →</a></p>
+</div>
+
+<h2>事業内容</h2>
+<p>iOSアプリの企画・開発および提供。App Storeを通じたアプリケーションの配信と、
+それに付随するサポート業務を行っています。</p>
+
+<h2>お問い合わせ</h2>
+<p>製品に関するご質問・ご要望は、以下までお寄せください。</p>
+<p class="label">メール</p>
 <p><a href="mailto:contact@yamamotostore.com">contact@yamamotostore.com</a></p>
+<p class="label">X（旧Twitter）</p>
+<p><a href="https://x.com/yondock">@yondock</a></p>
 
-<hr>
-<p><a href="privacy.html">プライバシーポリシー</a> ｜ <a href="support.html">サポート</a></p>
+<footer>
+<a href="yondock.html">Yondock</a> ｜ <a href="support.html">サポート</a> ｜ <a href="privacy.html">プライバシーポリシー</a>
+</footer>
+
 </body>
 </html>
